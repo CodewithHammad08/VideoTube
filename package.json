@@ -1,0 +1,30 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "A Youtube like Video-player mainly focused on its backend which helps user to upload his video and user can search it and play it",
+  "keywords": [
+    "Videotube"
+  ],
+  "homepage": "https://github.com/CodewithHammad08/VideoTube#readme",
+  "bugs": {
+    "url": "https://github.com/CodewithHammad08/VideoTube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodewithHammad08/VideoTube.git"
+  },
+  "license": "ISC",
+  "author": "Hammad Dalvi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  }
+}
