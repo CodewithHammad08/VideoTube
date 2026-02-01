@@ -15,13 +15,16 @@
   },
   "license": "ISC",
   "author": "Hammad Dalvi",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules /index.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.11",
